@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/woltapp/wolt-python-package-cookiecutter",
+  "commit": "4eecc9c4d27e3c9321438bc1fdaf717bec5eadf6",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Rafael Andres",
+      "author_email": "r.andres.blasco@gmail.com",
+      "github_username": "r-andres",
+      "project_name": "esoc_events",
+      "project_slug": "esoc_events",
+      "package_name": "esoc_events",
+      "project_short_description": "Querying events comming from ESOC sources",
+      "_template": "https://github.com/woltapp/wolt-python-package-cookiecutter"
+    }
+  },
+  "directory": null
+}
