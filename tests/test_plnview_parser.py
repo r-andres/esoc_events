@@ -1,8 +1,9 @@
-from esoc_events.utils.plnview_parser import PlnViewParser
 from pathlib import Path
 
+from esoc_events.utils.plnview_parser import PlnViewParser
 
-def test_plnview_parser():
+
+def test_plnview_parser() -> None:
 
     path = Path(__file__).parents[0] / 'data' / 'PLNVIEW_20240222T000000_20250101T000000_20240222T135018_v01-00.PASS-O'
     parser = PlnViewParser(path)

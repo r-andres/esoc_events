@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-def parse_fdyn_time(doy_utc: str):
+def parse_fdyn_time(doy_utc: str) -> datetime:
     """
     Args:
         doy_utc (str): "2023-104T12:47:12.000Z"
@@ -13,7 +13,7 @@ def parse_fdyn_time(doy_utc: str):
     return datetime.strptime(doy_utc, fdyn_format)
 
 
-def format_time(date: datetime):
+def format_time(date: datetime) -> str:
     """
     Args:
         date (datetime)
@@ -25,7 +25,7 @@ def format_time(date: datetime):
     return date.isoformat(timespec="seconds") + "Z"
 
 
-def fdyn_to_iso(doy_utc: str):
+def fdyn_to_iso(doy_utc: str) -> str:
     """
     Args:
         doy_utc (str): "2023-104T12:47:12.000Z"
