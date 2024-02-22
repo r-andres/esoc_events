@@ -1,5 +1,6 @@
-from .abstract_parser import AbstractParser
 from typing import Any
+
+from .abstract_parser import AbstractParser
 
 
 class PlnViewParser(AbstractParser):

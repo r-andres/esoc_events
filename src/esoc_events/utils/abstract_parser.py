@@ -1,5 +1,5 @@
-from xml.etree import ElementTree
 from typing import Any
+from xml.etree import ElementTree
 
 
 class AbstractParser:
