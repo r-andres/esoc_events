@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<eventfile xmlns="http://esa.esoc.events" xmlns:ems="http://esa.esoc.ems" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://esa.esoc.events juic_event_definitions.xsd">
+
+  <header format_version="1" gen_time="2024-038T14:42:18Z" icd_version="JUI-ESOC-MOC-ICD-501 v1.0" spacecraft="JUIC" validity_end="2031-188T21:13:41.000Z" validity_start="2023-104T12:47:12.000Z"/>
+
+  <events>
+    <sci count="1" duration="0" id="S2BE" object="Earth" time="2023-104T12:47:12.000Z"/>
+    <ant count="1" duration="0" ems:station="NNO" id="LGPE" time="2023-104T12:50:08.000Z"/>
+    <aos count="1" criteria="h_mask" duration="25400" elevation="2" ems:rtlt="0" ems:station="NNO" id="A74H" time="2023-104T12:51:22.000Z"/>
+    <aos Distance="11548" RangeRate="5.7576" SCDeclination="-5.767" SCHourAngle="42.499" SESC="88.119" SSCE="91.877" count="1" criteria="fix_el_mask" duration="23626" elevation="10" ems:rtlt="0" ems:station="NNO" id="A74T" time="2023-104T12:53:56.000Z"/>
+    <ant count="1" duration="2654649" ems:station="NNO" id="LGMS" time="2023-104T12:59:15.000Z"/>
+    <aos count="1" criteria="h_mask" duration="39204" elevation="3" ems:rtlt="1" ems:station="CEB" id="A83H" time="2023-104T16:59:57.000Z"/>
+    <aos Distance="89619" RangeRate="3.7956" SCDeclination="-4.084" SCHourAngle="292.340" SESC="148.198" SSCE="31.784" count="1" criteria="fix_el_mask" duration="35108" elevation="10" ems:rtlt="1" ems:station="CEB" id="A83T" time="2023-104T17:41:09.000Z"/>
+    <los Distance="113146" RangeRate="3.5802" SCDeclination="-3.875" SCHourAngle="76.944" SESC="150.720" SSCE="29.259" count="1" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="1" ems:station="NNO" id="L74T" time="2023-104T19:27:42.000Z"/>
+    <los count="1" criteria="h_mask" duration="0" elevation="5" ems:rtlt="1" ems:station="NNO" id="L74H" time="2023-104T19:54:42.000Z"/>
+    <aos count="1" criteria="h_mask" duration="43504" elevation="0" ems:rtlt="1" ems:station="MLG" id="A84H" time="2023-104T20:51:44.000Z"/>
+    <aos Distance="141043" RangeRate="3.4031" SCDeclination="-3.702" SCHourAngle="282.810" SESC="152.681" SSCE="27.294" count="1" criteria="fix_el_mask" duration="38327" elevation="10" ems:rtlt="1" ems:station="MLG" id="A84T" time="2023-104T21:41:05.000Z"/>
+    <los Distance="208554" RangeRate="3.1476" SCDeclination="-3.451" SCHourAngle="71.385" SESC="155.290" SSCE="24.677" count="1" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="1" ems:station="CEB" id="L83T" time="2023-105T03:26:17.000Z"/>
+    <los count="1" criteria="h_mask" duration="0" elevation="5" ems:rtlt="1" ems:station="CEB" id="L83H" time="2023-105T03:53:21.000Z"/>
+    <ant count="1" duration="86251" id="MGAS" time="2023-105T04:44:29.000Z"/>
+    <los Distance="262865" RangeRate="3.0279" SCDeclination="-3.333" SCHourAngle="78.384" SESC="156.378" SSCE="23.581" count="1" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="2" ems:station="MLG" id="L84T" time="2023-105T08:19:52.000Z"/>
+    <aos count="2" criteria="h_mask" duration="42467" elevation="0" ems:rtlt="2" ems:station="NNO" id="A74H" time="2023-105T08:41:57.000Z"/>
+    <los count="1" criteria="h_mask" duration="0" elevation="3" ems:rtlt="2" ems:station="MLG" id="L84H" time="2023-105T08:56:48.000Z"/>
+    <aos Distance="275367" RangeRate="3.0064" SCDeclination="-3.311" SCHourAngle="281.207" SESC="156.560" SSCE="23.398" count="2" criteria="fix_el_mask" duration="38205" elevation="10" ems:rtlt="2" ems:station="NNO" id="A74T" time="2023-105T09:28:56.000Z"/>
+    <aos count="2" criteria="h_mask" duration="38909" elevation="3" ems:rtlt="2" ems:station="CEB" id="A83H" time="2023-105T17:21:14.000Z"/>
+    <aos Distance="365696" RangeRate="2.8917" SCDeclination="-3.196" SCHourAngle="287.373" SESC="157.421" SSCE="22.525" count="2" criteria="fix_el_mask" duration="35012" elevation="10" ems:rtlt="2" ems:station="CEB" id="A83T" time="2023-105T18:00:21.000Z"/>
+    <los Distance="387366" RangeRate="2.8717" SCDeclination="-3.175" SCHourAngle="79.152" SESC="157.546" SSCE="22.398" count="2" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="3" ems:station="NNO" id="L74T" time="2023-105T20:05:41.000Z"/>
+    <los count="2" criteria="h_mask" duration="0" elevation="5" ems:rtlt="3" ems:station="NNO" id="L74H" time="2023-105T20:29:44.000Z"/>
+    <aos count="2" criteria="h_mask" duration="43054" elevation="0" ems:rtlt="3" ems:station="MLG" id="A84H" time="2023-105T21:08:05.000Z"/>
+    <aos Distance="406281" RangeRate="2.8559" SCDeclination="-3.159" SCHourAngle="281.145" SESC="157.637" SSCE="22.304" count="2" criteria="fix_el_mask" duration="38019" elevation="10" ems:rtlt="3" ems:station="MLG" id="A84T" time="2023-105T21:55:46.000Z"/>
+    <acs count="1" duration="207" id="WOLS" time="2023-106T00:59:29.000Z"/>
+    <acs count="1" duration="0" id="WOLE" time="2023-106T01:02:56.000Z"/>
+    <los Distance="465478" RangeRate="2.8143" SCDeclination="-3.116" SCHourAngle="72.987" SESC="157.835" SSCE="22.099" count="2" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="3" ems:station="CEB" id="L83T" time="2023-106T03:43:53.000Z"/>
+    <los count="2" criteria="h_mask" duration="0" elevation="5" ems:rtlt="3" ems:station="CEB" id="L83H" time="2023-106T04:09:43.000Z"/>
+    <ant count="1" duration="0" id="MGAE" time="2023-106T04:42:00.000Z"/>
+    <acs count="2" duration="103" id="WOLS" time="2023-106T07:32:00.000Z"/>
+    <acs count="2" duration="0" id="WOLE" time="2023-106T07:33:43.000Z"/>
+    <los Distance="513454" RangeRate="2.7875" SCDeclination="-3.088" SCHourAngle="79.031" SESC="157.922" SSCE="22.005" count="2" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="3" ems:station="MLG" id="L84T" time="2023-106T08:29:25.000Z"/>
+    <aos count="3" criteria="h_mask" duration="42412" elevation="0" ems:rtlt="3" ems:station="NNO" id="A74H" time="2023-106T08:46:09.000Z"/>
+    <ant count="2" duration="38400" id="MGAS" time="2023-106T08:57:00.000Z"/>
+    <los count="2" criteria="h_mask" duration="0" elevation="3" ems:rtlt="3" ems:station="MLG" id="L84H" time="2023-106T09:05:39.000Z"/>
+    <aos Distance="524048" RangeRate="2.7822" SCDeclination="-3.082" SCHourAngle="280.620" SESC="157.934" SSCE="21.991" count="3" criteria="fix_el_mask" duration="38179" elevation="10" ems:rtlt="3" ems:station="NNO" id="A74T" time="2023-106T09:32:49.000Z"/>
+    <aos count="3" criteria="h_mask" duration="39008" elevation="3" ems:rtlt="4" ems:station="CEB" id="A83H" time="2023-106T17:21:42.000Z"/>
+    <aos Distance="608209" RangeRate="2.7470" SCDeclination="-3.044" SCHourAngle="286.706" SESC="157.963" SSCE="21.950" count="3" criteria="fix_el_mask" duration="35153" elevation="10" ems:rtlt="4" ems:station="CEB" id="A83T" time="2023-106T18:00:22.000Z"/>
+    <ant count="2" duration="0" id="MGAE" time="2023-106T19:37:00.000Z"/>
+    <los Distance="629404" RangeRate="2.7396" SCDeclination="-3.036" SCHourAngle="79.486" SESC="157.954" SSCE="21.956" count="3" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="4" ems:station="NNO" id="L74T" time="2023-106T20:09:08.000Z"/>
+    <los count="3" criteria="h_mask" duration="0" elevation="5" ems:rtlt="4" ems:station="NNO" id="L74H" time="2023-106T20:33:01.000Z"/>
+    <aos count="3" criteria="h_mask" duration="43057" elevation="0" ems:rtlt="4" ems:station="MLG" id="A84H" time="2023-106T21:08:37.000Z"/>
+    <aos Distance="646984" RangeRate="2.7339" SCDeclination="-3.030" SCHourAngle="280.831" SESC="157.943" SSCE="21.964" count="3" criteria="fix_el_mask" duration="38039" elevation="10" ems:rtlt="4" ems:station="MLG" id="A84T" time="2023-106T21:56:11.000Z"/>
+    <los Distance="704228" RangeRate="2.7174" SCDeclination="-3.012" SCHourAngle="73.436" SESC="157.886" SSCE="22.013" count="3" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="5" ems:station="CEB" id="L83T" time="2023-107T03:46:15.000Z"/>
+    <los count="3" criteria="h_mask" duration="0" elevation="5" ems:rtlt="5" ems:station="CEB" id="L83H" time="2023-107T04:11:50.000Z"/>
+    <acs count="3" duration="207" id="WOLS" time="2023-107T07:41:00.000Z"/>
+    <acs count="3" duration="0" id="WOLE" time="2023-107T07:44:27.000Z"/>
+    <los Distance="750419" RangeRate="2.7061" SCDeclination="-2.999" SCHourAngle="79.240" SESC="157.819" SSCE="22.073" count="3" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="5" ems:station="MLG" id="L84T" time="2023-107T08:30:10.000Z"/>
+    <aos count="4" criteria="h_mask" duration="42429" elevation="0" ems:rtlt="5" ems:station="NNO" id="A74H" time="2023-107T08:45:12.000Z"/>
+    <ant count="3" duration="38400" id="MGAS" time="2023-107T09:06:00.000Z"/>
+    <los count="3" criteria="h_mask" duration="0" elevation="3" ems:rtlt="5" ems:station="MLG" id="L84H" time="2023-107T09:06:14.000Z"/>
+    <aos Distance="760425" RangeRate="2.7039" SCDeclination="-2.996" SCHourAngle="280.423" SESC="157.803" SSCE="22.088" count="4" criteria="fix_el_mask" duration="38202" elevation="10" ems:rtlt="5" ems:station="NNO" id="A74T" time="2023-107T09:31:49.000Z"/>
+    <aos count="4" criteria="h_mask" duration="39076" elevation="3" ems:rtlt="6" ems:station="CEB" id="A83H" time="2023-107T17:19:39.000Z"/>
+    <aos Distance="842323" RangeRate="2.6878" SCDeclination="-2.978" SCHourAngle="286.424" SESC="157.646" SSCE="22.233" count="4" criteria="fix_el_mask" duration="35236" elevation="10" ems:rtlt="6" ems:station="CEB" id="A83T" time="2023-107T17:58:12.000Z"/>
+    <ant count="3" duration="0" id="MGAE" time="2023-107T19:46:00.000Z"/>
+    <los Distance="863323" RangeRate="2.6842" SCDeclination="-2.973" SCHourAngle="79.629" SESC="157.600" SSCE="22.275" count="4" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="6" ems:station="NNO" id="L74T" time="2023-107T20:08:31.000Z"/>
+    <los count="4" criteria="h_mask" duration="0" elevation="5" ems:rtlt="6" ems:station="NNO" id="L74H" time="2023-107T20:32:21.000Z"/>
+    <aos count="4" criteria="h_mask" duration="43076" elevation="0" ems:rtlt="6" ems:station="MLG" id="A84H" time="2023-107T21:06:47.000Z"/>
+    <aos Distance="880356" RangeRate="2.6815" SCDeclination="-2.970" SCHourAngle="280.692" SESC="157.561" SSCE="22.311" count="4" criteria="fix_el_mask" duration="38063" elevation="10" ems:rtlt="6" ems:station="MLG" id="A84T" time="2023-107T21:54:19.000Z"/>
+    <los Distance="936762" RangeRate="2.6733" SCDeclination="-2.961" SCHourAngle="73.654" SESC="157.425" SSCE="22.439" count="4" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="6" ems:station="CEB" id="L83T" time="2023-108T03:45:28.000Z"/>
+    <los count="4" criteria="h_mask" duration="0" elevation="5" ems:rtlt="6" ems:station="CEB" id="L83H" time="2023-108T04:10:55.000Z"/>
+    <acs count="4" duration="207" id="WOLS" time="2023-108T07:38:00.000Z"/>
+    <acs count="4" duration="0" id="WOLE" time="2023-108T07:41:27.000Z"/>
+    <los Distance="982143" RangeRate="2.6676" SCDeclination="-2.954" SCHourAngle="79.347" SESC="157.306" SSCE="22.550" count="4" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="7" ems:station="MLG" id="L84T" time="2023-108T08:28:42.000Z"/>
+    <aos count="5" criteria="h_mask" duration="42448" elevation="0" ems:rtlt="7" ems:station="NNO" id="A74H" time="2023-108T08:42:52.000Z"/>
+    <ant count="4" duration="38400" id="MGAS" time="2023-108T09:03:00.000Z"/>
+    <los count="4" criteria="h_mask" duration="0" elevation="3" ems:rtlt="7" ems:station="MLG" id="L84H" time="2023-108T09:04:43.000Z"/>
+    <aos Distance="991868" RangeRate="2.6665" SCDeclination="-2.952" SCHourAngle="280.320" SESC="157.280" SSCE="22.574" count="5" criteria="fix_el_mask" duration="38224" elevation="10" ems:rtlt="7" ems:station="NNO" id="A74T" time="2023-108T09:29:28.000Z"/>
+    <aos count="5" criteria="h_mask" duration="39122" elevation="3" ems:rtlt="7" ems:station="CEB" id="A83H" time="2023-108T17:16:49.000Z"/>
+    <aos Distance="1072670" RangeRate="2.6582" SCDeclination="-2.943" SCHourAngle="286.268" SESC="157.053" SSCE="22.788" count="5" criteria="fix_el_mask" duration="35287" elevation="10" ems:rtlt="7" ems:station="CEB" id="A83T" time="2023-108T17:55:20.000Z"/>
+    <ant count="4" duration="0" id="MGAE" time="2023-108T19:43:00.000Z"/>
+    <los Distance="1093587" RangeRate="2.6563" SCDeclination="-2.940" SCHourAngle="79.711" SESC="156.992" SSCE="22.846" count="5" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="7" ems:station="NNO" id="L74T" time="2023-108T20:06:32.000Z"/>
+    <los count="5" criteria="h_mask" duration="0" elevation="5" ems:rtlt="7" ems:station="NNO" id="L74H" time="2023-108T20:30:20.000Z"/>
+    <aos count="5" criteria="h_mask" duration="43093" elevation="0" ems:rtlt="7" ems:station="MLG" id="A84H" time="2023-108T21:04:07.000Z"/>
+    <aos Distance="1110333" RangeRate="2.6549" SCDeclination="-2.939" SCHourAngle="280.611" SESC="156.942" SSCE="22.893" count="5" criteria="fix_el_mask" duration="38084" elevation="10" ems:rtlt="7" ems:station="MLG" id="A84T" time="2023-108T21:51:38.000Z"/>
+    <los Distance="1166330" RangeRate="2.6506" SCDeclination="-2.934" SCHourAngle="73.781" SESC="156.771" SSCE="23.054" count="5" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="8" ems:station="CEB" id="L83T" time="2023-109T03:43:27.000Z"/>
+    <los count="5" criteria="h_mask" duration="0" elevation="5" ems:rtlt="8" ems:station="CEB" id="L83H" time="2023-109T04:08:51.000Z"/>
+    <acs count="5" duration="207" id="WOLS" time="2023-109T07:35:00.000Z"/>
+    <acs count="5" duration="0" id="WOLE" time="2023-109T07:38:27.000Z"/>
+    <los Distance="1211296" RangeRate="2.6476" SCDeclination="-2.930" SCHourAngle="79.415" SESC="156.631" SSCE="23.187" count="5" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="8" ems:station="MLG" id="L84T" time="2023-109T08:26:22.000Z"/>
+    <aos count="6" criteria="h_mask" duration="42465" elevation="0" ems:rtlt="8" ems:station="NNO" id="A74H" time="2023-109T08:39:59.000Z"/>
+    <ant count="5" duration="297004" id="MGAS" time="2023-109T09:00:00.000Z"/>
+    <los count="5" criteria="h_mask" duration="0" elevation="3" ems:rtlt="8" ems:station="MLG" id="L84H" time="2023-109T09:02:20.000Z"/>
+    <aos Distance="1220861" RangeRate="2.6471" SCDeclination="-2.930" SCHourAngle="280.254" SESC="156.600" SSCE="23.216" count="6" criteria="fix_el_mask" duration="38242" elevation="10" ems:rtlt="8" ems:station="NNO" id="A74T" time="2023-109T09:26:35.000Z"/>
+    <aos count="6" criteria="h_mask" duration="39152" elevation="3" ems:rtlt="9" ems:station="CEB" id="A83H" time="2023-109T17:13:41.000Z"/>
+    <aos Distance="1301094" RangeRate="2.6428" SCDeclination="-2.925" SCHourAngle="286.173" SESC="156.341" SSCE="23.462" count="6" criteria="fix_el_mask" duration="35321" elevation="10" ems:rtlt="9" ems:station="CEB" id="A83T" time="2023-109T17:52:11.000Z"/>
+    <los Distance="1321984" RangeRate="2.6418" SCDeclination="-2.924" SCHourAngle="79.768" SESC="156.272" SSCE="23.527" count="6" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="9" ems:station="NNO" id="L74T" time="2023-109T20:03:57.000Z"/>
+    <los count="6" criteria="h_mask" duration="0" elevation="5" ems:rtlt="9" ems:station="NNO" id="L74H" time="2023-109T20:27:44.000Z"/>
+    <aos count="6" criteria="h_mask" duration="43109" elevation="0" ems:rtlt="9" ems:station="MLG" id="A84H" time="2023-109T21:01:03.000Z"/>
+    <aos Distance="1338566" RangeRate="2.6411" SCDeclination="-2.923" SCHourAngle="280.554" SESC="156.217" SSCE="23.579" count="6" criteria="fix_el_mask" duration="38102" elevation="10" ems:rtlt="9" ems:station="MLG" id="A84T" time="2023-109T21:48:34.000Z"/>
+    <los Distance="1394370" RangeRate="2.6390" SCDeclination="-2.921" SCHourAngle="73.860" SESC="156.029" SSCE="23.757" count="6" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="9" ems:station="CEB" id="L83T" time="2023-110T03:40:52.000Z"/>
+    <los count="6" criteria="h_mask" duration="0" elevation="5" ems:rtlt="9" ems:station="CEB" id="L83H" time="2023-110T04:06:13.000Z"/>
+    <acs count="6" duration="207" id="WOLS" time="2023-110T07:31:43.000Z"/>
+    <acs count="6" duration="0" id="WOLE" time="2023-110T07:35:10.000Z"/>
+    <los Distance="1439126" RangeRate="2.6376" SCDeclination="-2.920" SCHourAngle="79.466" SESC="155.877" SSCE="23.901" count="6" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="10" ems:station="MLG" id="L84T" time="2023-110T08:23:36.000Z"/>
+    <aos count="7" criteria="h_mask" duration="42479" elevation="0" ems:rtlt="10" ems:station="NNO" id="A74H" time="2023-110T08:36:49.000Z"/>
+    <los count="6" criteria="h_mask" duration="0" elevation="3" ems:rtlt="10" ems:station="MLG" id="L84H" time="2023-110T08:59:32.000Z"/>
+    <aos Distance="1448591" RangeRate="2.6373" SCDeclination="-2.920" SCHourAngle="280.206" SESC="155.845" SSCE="23.931" count="7" criteria="fix_el_mask" duration="38259" elevation="10" ems:rtlt="10" ems:station="NNO" id="A74T" time="2023-110T09:23:24.000Z"/>
+    <aos count="7" criteria="h_mask" duration="39172" elevation="3" ems:rtlt="10" ems:station="CEB" id="A83H" time="2023-110T17:10:24.000Z"/>
+    <aos Distance="1528545" RangeRate="2.6354" SCDeclination="-2.919" SCHourAngle="286.112" SESC="155.568" SSCE="24.193" count="7" criteria="fix_el_mask" duration="35343" elevation="10" ems:rtlt="10" ems:station="CEB" id="A83T" time="2023-110T17:48:53.000Z"/>
+    <los Distance="1549442" RangeRate="2.6350" SCDeclination="-2.919" SCHourAngle="79.811" SESC="155.495" SSCE="24.262" count="7" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="10" ems:station="NNO" id="L74T" time="2023-110T20:01:03.000Z"/>
+    <los count="7" criteria="h_mask" duration="0" elevation="5" ems:rtlt="10" ems:station="NNO" id="L74H" time="2023-110T20:24:48.000Z"/>
+    <aos count="7" criteria="h_mask" duration="43123" elevation="0" ems:rtlt="10" ems:station="MLG" id="A84H" time="2023-110T20:57:47.000Z"/>
+    <aos Distance="1565925" RangeRate="2.6347" SCDeclination="-2.919" SCHourAngle="280.509" SESC="155.437" SSCE="24.317" count="7" criteria="fix_el_mask" duration="38118" elevation="10" ems:rtlt="10" ems:station="MLG" id="A84T" time="2023-110T21:45:18.000Z"/>
+    <los Distance="1621661" RangeRate="2.6339" SCDeclination="-2.919" SCHourAngle="73.911" SESC="155.241" SSCE="24.502" count="7" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="11" ems:station="CEB" id="L83T" time="2023-111T03:37:56.000Z"/>
+    <los count="7" criteria="h_mask" duration="0" elevation="5" ems:rtlt="11" ems:station="CEB" id="L83H" time="2023-111T04:03:16.000Z"/>
+    <los Distance="1666330" RangeRate="2.6335" SCDeclination="-2.920" SCHourAngle="79.508" SESC="155.083" SSCE="24.652" count="7" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="11" ems:station="MLG" id="L84T" time="2023-111T08:20:36.000Z"/>
+    <aos count="8" criteria="h_mask" duration="42493" elevation="0" ems:rtlt="11" ems:station="NNO" id="A74H" time="2023-111T08:33:30.000Z"/>
+    <los count="7" criteria="h_mask" duration="0" elevation="3" ems:rtlt="11" ems:station="MLG" id="L84H" time="2023-111T08:56:30.000Z"/>
+    <aos Distance="1675728" RangeRate="2.6334" SCDeclination="-2.920" SCHourAngle="280.167" SESC="155.049" SSCE="24.684" count="8" criteria="fix_el_mask" duration="38274" elevation="10" ems:rtlt="11" ems:station="NNO" id="A74T" time="2023-111T09:20:05.000Z"/>
+    <aos count="8" criteria="h_mask" duration="39186" elevation="3" ems:rtlt="12" ems:station="CEB" id="A83H" time="2023-111T17:07:02.000Z"/>
+    <aos Distance="1755582" RangeRate="2.6330" SCDeclination="-2.922" SCHourAngle="286.074" SESC="154.764" SSCE="24.954" count="8" criteria="fix_el_mask" duration="35358" elevation="10" ems:rtlt="12" ems:station="CEB" id="A83T" time="2023-111T17:45:31.000Z"/>
+    <los Distance="1776507" RangeRate="2.6330" SCDeclination="-2.923" SCHourAngle="79.848" SESC="154.689" SSCE="25.025" count="8" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="12" ems:station="NNO" id="L74T" time="2023-111T19:57:59.000Z"/>
+    <los count="8" criteria="h_mask" duration="0" elevation="5" ems:rtlt="12" ems:station="NNO" id="L74H" time="2023-111T20:21:43.000Z"/>
+    <aos count="8" criteria="h_mask" duration="43136" elevation="0" ems:rtlt="12" ems:station="MLG" id="A84H" time="2023-111T20:54:25.000Z"/>
+    <aos Distance="1792928" RangeRate="2.6330" SCDeclination="-2.923" SCHourAngle="280.470" SESC="154.630" SSCE="25.081" count="8" criteria="fix_el_mask" duration="38135" elevation="10" ems:rtlt="12" ems:station="MLG" id="A84T" time="2023-111T21:41:55.000Z"/>
+    <los Distance="1848678" RangeRate="2.6331" SCDeclination="-2.926" SCHourAngle="73.942" SESC="154.429" SSCE="25.271" count="8" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="12" ems:station="CEB" id="L83T" time="2023-112T03:34:49.000Z"/>
+    <los count="8" criteria="h_mask" duration="0" elevation="5" ems:rtlt="12" ems:station="CEB" id="L83H" time="2023-112T04:00:08.000Z"/>
+    <los Distance="1893338" RangeRate="2.6333" SCDeclination="-2.928" SCHourAngle="79.545" SESC="154.267" SSCE="25.423" count="8" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="13" ems:station="MLG" id="L84T" time="2023-112T08:17:30.000Z"/>
+    <aos count="9" criteria="h_mask" duration="42505" elevation="0" ems:rtlt="13" ems:station="NNO" id="A74H" time="2023-112T08:30:06.000Z"/>
+    <los count="8" criteria="h_mask" duration="0" elevation="3" ems:rtlt="13" ems:station="MLG" id="L84H" time="2023-112T08:53:21.000Z"/>
+    <aos Distance="1902690" RangeRate="2.6333" SCDeclination="-2.928" SCHourAngle="280.132" SESC="154.233" SSCE="25.455" count="9" criteria="fix_el_mask" duration="38288" elevation="10" ems:rtlt="13" ems:station="NNO" id="A74T" time="2023-112T09:16:41.000Z"/>
+    <aos count="9" criteria="h_mask" duration="39193" elevation="3" ems:rtlt="13" ems:station="CEB" id="A83H" time="2023-112T17:03:40.000Z"/>
+    <aos Distance="1982560" RangeRate="2.6339" SCDeclination="-2.933" SCHourAngle="286.053" SESC="153.943" SSCE="25.729" count="9" criteria="fix_el_mask" duration="35366" elevation="10" ems:rtlt="13" ems:station="CEB" id="A83T" time="2023-112T17:42:08.000Z"/>
+    <ant count="5" duration="0" id="MGAE" time="2023-112T19:30:04.000Z"/>
+    <los Distance="2003528" RangeRate="2.6341" SCDeclination="-2.934" SCHourAngle="79.882" SESC="153.867" SSCE="25.801" count="9" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="13" ems:station="NNO" id="L74T" time="2023-112T19:54:49.000Z"/>
+    <los count="9" criteria="h_mask" duration="0" elevation="5" ems:rtlt="13" ems:station="NNO" id="L74H" time="2023-112T20:18:31.000Z"/>
+    <aos count="9" criteria="h_mask" duration="43149" elevation="0" ems:rtlt="13" ems:station="MLG" id="A84H" time="2023-112T20:50:58.000Z"/>
+    <aos Distance="2019912" RangeRate="2.6343" SCDeclination="-2.935" SCHourAngle="280.433" SESC="153.807" SSCE="25.857" count="9" criteria="fix_el_mask" duration="38151" elevation="10" ems:rtlt="13" ems:station="MLG" id="A84T" time="2023-112T21:38:28.000Z"/>
+    <los Distance="2075728" RangeRate="2.6350" SCDeclination="-2.939" SCHourAngle="73.958" SESC="153.603" SSCE="26.049" count="9" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="14" ems:station="CEB" id="L83T" time="2023-113T03:31:34.000Z"/>
+    <los count="9" criteria="h_mask" duration="0" elevation="5" ems:rtlt="14" ems:station="CEB" id="L83H" time="2023-113T03:56:53.000Z"/>
+    <acs count="7" duration="310" id="WOLS" time="2023-113T07:21:49.000Z"/>
+    <acs count="7" duration="0" id="WOLE" time="2023-113T07:26:59.000Z"/>
+    <los Distance="2120436" RangeRate="2.6357" SCDeclination="-2.943" SCHourAngle="79.581" SESC="153.440" SSCE="26.203" count="9" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="14" ems:station="MLG" id="L84T" time="2023-113T08:14:19.000Z"/>
+    <aos count="10" criteria="h_mask" duration="42518" elevation="0" ems:rtlt="14" ems:station="NNO" id="A74H" time="2023-113T08:26:38.000Z"/>
+    <ant count="6" duration="38400" id="MGAS" time="2023-113T08:46:49.000Z"/>
+    <los count="9" criteria="h_mask" duration="0" elevation="3" ems:rtlt="14" ems:station="MLG" id="L84H" time="2023-113T08:50:07.000Z"/>
+    <aos Distance="2129753" RangeRate="2.6358" SCDeclination="-2.943" SCHourAngle="280.099" SESC="153.406" SSCE="26.235" count="10" criteria="fix_el_mask" duration="38303" elevation="10" ems:rtlt="14" ems:station="NNO" id="A74T" time="2023-113T09:13:13.000Z"/>
+    <aos count="10" criteria="h_mask" duration="39196" elevation="3" ems:rtlt="15" ems:station="CEB" id="A83H" time="2023-113T17:00:17.000Z"/>
+    <aos Distance="2209723" RangeRate="2.6372" SCDeclination="-2.950" SCHourAngle="286.043" SESC="153.114" SSCE="26.511" count="10" criteria="fix_el_mask" duration="35368" elevation="10" ems:rtlt="15" ems:station="CEB" id="A83T" time="2023-113T17:38:46.000Z"/>
+    <ant count="6" duration="0" id="MGAE" time="2023-113T19:26:49.000Z"/>
+    <los Distance="2230742" RangeRate="2.6375" SCDeclination="-2.952" SCHourAngle="79.914" SESC="153.037" SSCE="26.583" count="10" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="15" ems:station="NNO" id="L74T" time="2023-113T19:51:36.000Z"/>
+    <los count="10" criteria="h_mask" duration="0" elevation="5" ems:rtlt="15" ems:station="NNO" id="L74H" time="2023-113T20:15:16.000Z"/>
+    <aos count="10" criteria="h_mask" duration="43161" elevation="0" ems:rtlt="15" ems:station="MLG" id="A84H" time="2023-113T20:47:29.000Z"/>
+    <acs count="8" duration="207" id="WOLS" time="2023-113T21:11:49.000Z"/>
+    <acs count="8" duration="0" id="WOLE" time="2023-113T21:15:16.000Z"/>
+    <aos Distance="2247105" RangeRate="2.6379" SCDeclination="-2.954" SCHourAngle="280.398" SESC="152.977" SSCE="26.639" count="10" criteria="fix_el_mask" duration="38167" elevation="10" ems:rtlt="15" ems:station="MLG" id="A84T" time="2023-113T21:34:59.000Z"/>
+    <acs count="9" duration="310" id="WOLS" time="2023-113T23:31:49.000Z"/>
+    <acs count="9" duration="0" id="WOLE" time="2023-113T23:36:59.000Z"/>
+    <acs count="10" duration="103" id="WOLS" time="2023-114T00:41:49.000Z"/>
+    <acs count="10" duration="0" id="WOLE" time="2023-114T00:43:32.000Z"/>
+    <acs count="11" duration="206" id="WOLS" time="2023-114T01:07:32.000Z"/>
+    <acs count="11" duration="0" id="WOLE" time="2023-114T01:10:58.000Z"/>
+    <acs count="12" duration="103" id="WOLS" time="2023-114T01:19:12.000Z"/>
+    <acs count="12" duration="0" id="WOLE" time="2023-114T01:20:55.000Z"/>
+    <acs count="13" duration="206" id="WOLS" time="2023-114T01:30:52.000Z"/>
+    <acs count="13" duration="0" id="WOLE" time="2023-114T01:34:18.000Z"/>
+    <acs count="14" duration="103" id="WOLS" time="2023-114T01:42:32.000Z"/>
+    <acs count="14" duration="0" id="WOLE" time="2023-114T01:44:15.000Z"/>
+    <acs count="15" duration="206" id="WOLS" time="2023-114T01:54:12.000Z"/>
+    <acs count="15" duration="0" id="WOLE" time="2023-114T01:57:38.000Z"/>
+    <acs count="16" duration="104" id="WOLS" time="2023-114T02:19:54.000Z"/>
+    <acs count="16" duration="0" id="WOLE" time="2023-114T02:21:38.000Z"/>
+    <los Distance="2303025" RangeRate="2.6390" SCDeclination="-2.959" SCHourAngle="73.963" SESC="152.772" SSCE="26.832" count="10" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="15" ems:station="CEB" id="L83T" time="2023-114T03:28:14.000Z"/>
+    <los count="10" criteria="h_mask" duration="0" elevation="5" ems:rtlt="15" ems:station="CEB" id="L83H" time="2023-114T03:53:33.000Z"/>
+    <acs count="17" duration="103" id="WOLS" time="2023-114T07:18:35.000Z"/>
+    <acs count="17" duration="0" id="WOLE" time="2023-114T07:20:18.000Z"/>
+    <los Distance="2347822" RangeRate="2.6399" SCDeclination="-2.964" SCHourAngle="79.617" SESC="152.608" SSCE="26.986" count="10" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="16" ems:station="MLG" id="L84T" time="2023-114T08:11:06.000Z"/>
+    <aos count="11" criteria="h_mask" duration="42530" elevation="0" ems:rtlt="16" ems:station="NNO" id="A74H" time="2023-114T08:23:09.000Z"/>
+    <ant count="7" duration="38400" id="MGAS" time="2023-114T08:43:35.000Z"/>
+    <los count="10" criteria="h_mask" duration="0" elevation="3" ems:rtlt="16" ems:station="MLG" id="L84H" time="2023-114T08:46:50.000Z"/>
+    <aos Distance="2357111" RangeRate="2.6402" SCDeclination="-2.965" SCHourAngle="280.067" SESC="152.574" SSCE="27.018" count="11" criteria="fix_el_mask" duration="38317" elevation="10" ems:rtlt="16" ems:station="NNO" id="A74T" time="2023-114T09:09:44.000Z"/>
+    <aos count="11" criteria="h_mask" duration="39195" elevation="3" ems:rtlt="16" ems:station="CEB" id="A83H" time="2023-114T16:56:55.000Z"/>
+    <aos Distance="2437240" RangeRate="2.6420" SCDeclination="-2.973" SCHourAngle="286.044" SESC="152.281" SSCE="27.294" count="11" criteria="fix_el_mask" duration="35366" elevation="10" ems:rtlt="16" ems:station="CEB" id="A83T" time="2023-114T17:35:24.000Z"/>
+    <ant count="7" duration="0" id="MGAE" time="2023-114T19:23:35.000Z"/>
+    <acs count="18" duration="207" id="WOLS" time="2023-114T19:28:35.000Z"/>
+    <acs count="18" duration="0" id="WOLE" time="2023-114T19:32:02.000Z"/>
+    <los Distance="2458319" RangeRate="2.6426" SCDeclination="-2.976" SCHourAngle="79.946" SESC="152.204" SSCE="27.366" count="11" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="16" ems:station="NNO" id="L74T" time="2023-114T19:48:21.000Z"/>
+    <los count="11" criteria="h_mask" duration="0" elevation="5" ems:rtlt="16" ems:station="NNO" id="L74H" time="2023-114T20:11:59.000Z"/>
+    <aos count="11" criteria="h_mask" duration="43174" elevation="0" ems:rtlt="16" ems:station="MLG" id="A84H" time="2023-114T20:43:58.000Z"/>
+    <aos Distance="2474670" RangeRate="2.6430" SCDeclination="-2.978" SCHourAngle="280.362" SESC="152.144" SSCE="27.422" count="11" criteria="fix_el_mask" duration="38184" elevation="10" ems:rtlt="17" ems:station="MLG" id="A84T" time="2023-114T21:31:28.000Z"/>
+    <los Distance="2530722" RangeRate="2.6444" SCDeclination="-2.984" SCHourAngle="73.960" SESC="151.939" SSCE="27.614" count="11" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="17" ems:station="CEB" id="L83T" time="2023-115T03:24:50.000Z"/>
+    <los count="11" criteria="h_mask" duration="0" elevation="5" ems:rtlt="17" ems:station="CEB" id="L83H" time="2023-115T03:50:10.000Z"/>
+    <los Distance="2575638" RangeRate="2.6456" SCDeclination="-2.990" SCHourAngle="79.652" SESC="151.775" SSCE="27.768" count="11" criteria="fix_el_mask" duration="0" elevation="10" ems:rtlt="17" ems:station="MLG" id="L84T" time="2023-115T08:07:52.000Z"/>
+    <aos count="12" criteria="h_mask" duration="42542" elevation="0" ems:rtlt="17" ems:station="NNO" id="A74H" time="2023-115T08:19:39.000Z"/>
+    <los count="11" criteria="h_mask" duration="0" elevation="3" ems:rtlt="17" ems:station="MLG" id="L84H" time="2023-115T08:43:32.000Z"/>
+    <aos Distance="2584904" RangeRate="2.6459" SCDeclination="-2.991" SCHourAngle="280.036" SESC="151.741" SSCE="27.800" count="12" criteria="fix_el_mask" duration="38332" elevation="10" ems:rtlt="17" ems:station="NNO" id="A74T" time="2023-115T09:06:14.000Z"/>
+    <acs count="19" duration="103" id="WOLS" time="2023-115T09:40:10.000Z"/>
+    <acs count="19" duration="0" id="WOLE" time="2023-115T09:41:53.000Z"/>
+    <ant count="8" duration="4490" id="MGAS" time="2023-115T11:15:10.000Z"/>
+    <ant count="8" duration="0" id="MGAE" time="2023-115T12:30:00.000Z"/>
+    <ant count="9" duration="17604" id="MGAS" time="2023-115T14:27:00.000Z"/>
+    <acs count="20" duration="103" id="WOLS" time="2023-115T15:05:00.000Z"/>
+    <acs count="20" duration="0" id="WOLE" time="2023-115T15:06:43.000Z"/>
+  </events>
+
+</eventfile>

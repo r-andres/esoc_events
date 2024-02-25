@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://esa.esoc.events juice_event_definitions.xsd"
+	xmlns="http://esa.esoc.events"
+	xmlns:ems="http://esa.esoc.ems">
+
+	<header format_version="1"
+		gen_time="2023-275T12:00:00Z"
+		icd_version="PLID-1.0"
+		spacecraft="JUIC"
+		validity_start="2023-100T00:00:00.000Z"
+		validity_end="2024-349T00:00:00.000Z"/>
+
+	<events>
+		<!-- PL Checkout 1 -->
+		<uvt id ="FP1A" time="2024-016T05:16:38.333Z" count="1" duration="0"/>
+		<uvt id ="WOL1" time="2024-016T15:05:58.000Z" count="1" duration="0"/>
+		<uvt id ="FP1L" time="2024-016T15:40:58.000Z" count="1" duration="0"/>
+		<uvt id ="FP1A" time="2024-017T02:04:38.000Z" count="2" duration="0"/>
+		<uvt id ="WOL1" time="2024-017T11:53:18.000Z" count="2" duration="0"/>
+		<uvt id ="FP1L" time="2024-017T12:28:18.000Z" count="2" duration="0"/>
+		<uvt id ="FP1A" time="2024-018T00:27:01.500Z" count="3" duration="0"/>
+		<uvt id ="WOL1" time="2024-018T11:50:45.000Z" count="3" duration="0"/>
+		<uvt id ="FP1L" time="2024-018T12:25:45.000Z" count="3" duration="0"/>
+		<uvt id ="FP1A" time="2024-019T01:10:47.750Z" count="4" duration="0"/>
+		<uvt id ="WOL1" time="2024-019T13:20:51.000Z" count="4" duration="0"/>
+		<uvt id ="FP1L" time="2024-019T13:55:50.500Z" count="4" duration="0"/>
+		<uvt id ="FP1A" time="2024-020T02:40:53.250Z" count="5" duration="0"/>
+		<uvt id ="WOL1" time="2024-020T14:50:56.000Z" count="5" duration="0"/>
+		<uvt id ="FP1L" time="2024-020T15:25:56.000Z" count="5" duration="0"/>
+		<uvt id ="FP1A" time="2024-021T04:10:58.750Z" count="6" duration="0"/>
+		<uvt id ="WOL1" time="2024-021T16:21:01.000Z" count="6" duration="0"/>
+		<uvt id ="FP1L" time="2024-021T16:56:01.500Z" count="6" duration="0"/>
+		<uvt id ="COEV" time="2024-022T00:00:00.000Z" count="1" duration="0"/>
+		<uvt id ="FP1A" time="2024-022T05:41:04.250Z" count="7" duration="0"/>
+		<uvt id ="WOL1" time="2024-022T17:51:07.000Z" count="7" duration="0"/>
+		<uvt id ="FP1L" time="2024-022T18:26:07.000Z" count="7" duration="0"/>
+		<uvt id ="FP1A" time="2024-023T05:19:51.000Z" count="8" duration="0"/>
+		<uvt id ="WOL1" time="2024-023T15:38:35.000Z" count="8" duration="0"/>
+		<uvt id ="FP1L" time="2024-023T16:13:35.000Z" count="8" duration="0"/>
+		<uvt id ="FP1A" time="2024-024T04:54:55.600Z" count="9" duration="0"/>
+		<uvt id ="WOL1" time="2024-024T17:01:16.000Z" count="9" duration="0"/>
+		<uvt id ="FP1L" time="2024-024T17:36:16.200Z" count="9" duration="0"/>
+		<uvt id ="FP1A" time="2024-025T05:35:48.600Z" count="10" duration="0"/>
+		<uvt id ="WOL1" time="2024-025T17:00:21.000Z" count="10" duration="0"/>
+		<uvt id ="FP1L" time="2024-025T17:35:21.000Z" count="10" duration="0"/>
+		<uvt id ="FP1A" time="2024-026T05:56:55.500Z" count="11" duration="0"/>
+		<uvt id ="WOL1" time="2024-026T17:43:30.000Z" count="11" duration="0"/>
+		<uvt id ="FP1L" time="2024-026T18:18:30.000Z" count="11" duration="0"/>
+		<uvt id ="FP1A" time="2024-027T06:11:41.000Z" count="12" duration="0"/>
+		<uvt id ="WOL1" time="2024-027T17:41:41.000Z" count="12" duration="0"/>
+		<uvt id ="FP1L" time="2024-027T18:16:41.000Z" count="12" duration="0"/>
+		<uvt id ="FP1A" time="2024-028T06:09:54.000Z" count="13" duration="0"/>
+		<uvt id ="WOL1" time="2024-028T17:39:54.000Z" count="13" duration="0"/>
+		<uvt id ="FP1L" time="2024-028T18:14:54.000Z" count="13" duration="0"/>
+		<uvt id ="FP1A" time="2024-029T06:14:02.333Z" count="14" duration="0"/>
+		<uvt id ="WOL1" time="2024-029T17:38:11.000Z" count="14" duration="0"/>
+		<uvt id ="FP1L" time="2024-029T18:13:10.667Z" count="14" duration="0"/>
+		<uvt id ="FP1A" time="2024-030T06:12:19.000Z" count="15" duration="0"/>
+		<uvt id ="WOL1" time="2024-030T17:36:27.000Z" count="15" duration="0"/>
+		<uvt id ="FP1L" time="2024-030T18:11:27.333Z" count="15" duration="0"/>
+		<uvt id ="FP1A" time="2024-031T06:04:44.000Z" count="16" duration="0"/>
+		<uvt id ="WOL1" time="2024-031T17:34:44.000Z" count="16" duration="0"/>
+		<uvt id ="FP1L" time="2024-031T18:09:44.000Z" count="16" duration="0"/>
+		<uvt id ="FP1A" time="2024-032T06:03:04.000Z" count="17" duration="0"/>
+		<uvt id ="WOL1" time="2024-032T17:33:04.000Z" count="17" duration="0"/>
+		<uvt id ="FP1L" time="2024-032T18:08:04.000Z" count="17" duration="0"/>
+		<uvt id ="FP1A" time="2024-033T06:07:15.000Z" count="18" duration="0"/>
+		<uvt id ="WOL1" time="2024-033T17:31:26.000Z" count="18" duration="0"/>
+		<uvt id ="FP1L" time="2024-033T18:06:26.000Z" count="18" duration="0"/>
+		<!-- PL Checkout 2 -->
+		<uvt id ="COEV" time="2024-183T00:00:00.000Z" count="2" duration="0"/>
+		<uvt id ="FP2A" time="2024-183T12:41:00.000Z" count="1" duration="0"/>
+		<uvt id ="WOL2" time="2024-184T00:06:00.000Z" count="1" duration="0"/>
+		<uvt id ="FP2L" time="2024-184T00:41:00.000Z" count="1" duration="0"/>
+		<uvt id ="FP2A" time="2024-184T12:38:00.000Z" count="2" duration="0"/>
+		<uvt id ="WOL2" time="2024-185T00:03:00.000Z" count="2" duration="0"/>
+		<uvt id ="FP2L" time="2024-185T00:38:00.000Z" count="2" duration="0"/>
+		<uvt id ="FP2A" time="2024-185T12:36:00.000Z" count="3" duration="0"/>
+		<uvt id ="WOL2" time="2024-186T00:01:00.000Z" count="3" duration="0"/>
+		<uvt id ="FP2L" time="2024-186T00:36:00.000Z" count="3" duration="0"/>
+		<uvt id ="FP2A" time="2024-186T12:33:00.000Z" count="4" duration="0"/>
+		<uvt id ="WOL2" time="2024-186T23:58:00.000Z" count="4" duration="0"/>
+		<uvt id ="FP2L" time="2024-187T00:33:00.000Z" count="4" duration="0"/>
+		<uvt id ="FP2A" time="2024-187T12:31:00.000Z" count="5" duration="0"/>
+		<uvt id ="WOL2" time="2024-187T23:56:00.000Z" count="5" duration="0"/>
+		<uvt id ="FP2L" time="2024-188T00:31:00.000Z" count="5" duration="0"/>
+	</events>
+</eventfile>

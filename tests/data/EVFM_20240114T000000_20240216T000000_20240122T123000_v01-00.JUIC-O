@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://esa.esoc.events juice_evfm_definitions.xsd"
+xmlns="http://esa.esoc.events" xmlns:ems="http://esa.esoc.ems">
+<header format_version="1" gen_time="2024-010T13:13:58.000Z"
+icd_version="PLID-1.0"
+spacecraft="JUIC"
+validity_start="2024-014T00:00:00.000Z"
+validity_end="2024-047T00:00:00.000Z"/>
+<events>
+<bot_info time="2024-016T08:03:39.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-016T08:05:39.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-016T08:05:39.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-016T08:16:19.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-016T08:16:19.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-016T14:59:58.479Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-016T15:03:57.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-016T15:03:57.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-016T15:05:58.000Z" ems:station="MLG"/>
+<bot_info time="2024-017T04:12:24.000Z" ems:station="CEB" TYP_SUP="TTC_1" T_UPLINK="2024-017T04:14:24.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-017T04:14:24.001Z" ems:station="CEB" START_RNG="YES"/>
+<aos_2way time="2024-017T04:25:04.001Z" ems:station="CEB"/>
+<start_cl_rec time="2024-017T04:25:04.001Z" ems:station="CEB" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-017T11:47:16.267Z" ems:station="CEB" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-017T11:51:17.975Z" ems:station="CEB"/>
+<stop_cl_rec time="2024-017T11:51:17.975Z" ems:station="CEB" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-017T11:53:18.000Z" ems:station="CEB"/>
+<bot_info time="2024-018T04:11:06.000Z" ems:station="CEB" TYP_SUP="TTC_1" T_UPLINK="2024-018T04:13:06.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-018T04:13:06.001Z" ems:station="CEB" START_RNG="YES"/>
+<aos_2way time="2024-018T04:23:46.001Z" ems:station="CEB"/>
+<start_cl_rec time="2024-018T04:23:46.001Z" ems:station="CEB" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-018T11:44:40.775Z" ems:station="CEB" UPLNK_SEL="PRIMARY"/>
+<stop_ranging time="2024-018T11:48:42.887Z" ems:station="CEB" RNG_CHANNEL="PRIMARY"/>
+<los_2way time="2024-018T11:48:44.975Z" ems:station="CEB"/>
+<stop_cl_rec time="2024-018T11:48:44.975Z" ems:station="CEB" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-018T11:50:45.000Z" ems:station="CEB"/>
+<bot_info time="2024-022T08:30:14.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-022T08:32:14.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-022T08:32:14.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-022T08:42:54.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-022T08:42:54.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-022T17:44:52.621Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<stop_ranging time="2024-022T17:48:59.810Z" ems:station="MLG" RNG_CHANNEL="PRIMARY"/>
+<los_2way time="2024-022T17:49:06.979Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-022T17:49:06.979Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-022T17:51:07.000Z" ems:station="MLG"/>
+<bot_info time="2024-023T07:49:09.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-023T07:51:09.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-023T07:51:09.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-023T08:01:49.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-023T08:01:49.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-023T15:32:18.527Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-023T15:36:34.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-023T15:36:34.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-023T15:38:35.000Z" ems:station="MLG"/>
+<bot_info time="2024-024T07:01:16.200Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-024T07:03:16.201Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-024T07:03:16.201Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-024T07:13:56.201Z" ems:station="MLG"/>
+<start_cl_rec time="2024-024T07:13:56.201Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<start_ol_rec time="2024-024T07:34:30.000Z" ems:station="MLG" FUNC_GROUP="FG4"/>
+<start_secondary_ul time="2024-024T07:55:00.000Z" ems:station="MLG" START_RNG="YES"/>
+<stop_ul time="2024-024T09:00:00.000Z" ems:station="MLG" UPLNK_SEL="SECONDARY"/>
+<stop_ol_rec time="2024-024T09:09:30.000Z" ems:station="MLG" FUNC_GROUP="FG4"/>
+<stop_ul time="2024-024T16:54:57.341Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-024T16:59:16.199Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-024T16:59:16.199Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-024T17:01:16.200Z" ems:station="MLG"/>
+<bot_info time="2024-025T07:45:21.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-025T07:47:21.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-025T07:47:21.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-025T07:58:01.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-025T07:58:01.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-025T16:53:59.921Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-025T16:58:20.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-025T16:58:20.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-025T17:00:21.000Z" ems:station="MLG"/>
+<bot_info time="2024-026T07:43:30.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-026T07:45:30.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-026T07:45:30.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-026T07:56:10.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-026T07:56:10.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-026T17:37:06.685Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-026T17:41:29.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-026T17:41:29.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-026T17:43:30.000Z" ems:station="MLG"/>
+<bot_info time="2024-027T07:41:41.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-027T07:43:41.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-027T07:43:41.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-027T07:54:21.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-027T07:54:21.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-027T17:35:15.553Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-027T17:39:40.979Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-027T17:39:40.979Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-027T17:41:41.000Z" ems:station="MLG"/>
+<bot_info time="2024-028T07:39:54.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-028T07:41:54.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-028T07:41:54.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-028T07:52:34.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-028T07:52:34.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-028T17:33:26.465Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-028T17:37:53.979Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-028T17:37:53.979Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-028T17:39:54.000Z" ems:station="MLG"/>
+<bot_info time="2024-031T07:34:44.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-031T07:36:44.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-031T07:36:44.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-031T07:47:24.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-031T07:47:24.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-031T17:28:10.499Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-031T17:32:43.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-031T17:32:43.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-031T17:34:44.000Z" ems:station="MLG"/>
+<bot_info time="2024-032T07:33:04.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-032T07:35:04.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-032T07:35:04.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-032T07:45:44.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-032T07:45:44.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-032T17:26:28.601Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-032T17:31:03.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-032T17:31:03.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-032T17:33:04.000Z" ems:station="MLG"/>
+<bot_info time="2024-033T10:31:25.800Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-033T10:33:25.801Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-033T10:33:25.801Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-033T10:44:05.801Z" ems:station="MLG"/>
+<start_cl_rec time="2024-033T10:44:05.801Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-033T17:24:48.751Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-033T17:29:25.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-033T17:29:25.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-033T17:31:26.000Z" ems:station="MLG"/>
+<bot_info time="2024-037T07:25:08.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-037T07:27:08.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-037T07:27:08.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-037T07:37:48.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-037T07:37:48.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-037T16:00:19.947Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-037T16:05:03.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-037T16:05:03.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-037T16:07:04.000Z" ems:station="MLG"/>
+<bot_info time="2024-045T07:00:00.000Z" ems:station="MLG" TYP_SUP="TTC_1" T_UPLINK="2024-045T07:02:00.001Z" RECEIVER="RECEIVER_1" TM_RATE="526315" TC_RATE="4000" TM_CODE_TYPE="TURBO 1/2"/>
+<start_ul time="2024-045T07:02:00.001Z" ems:station="MLG" START_RNG="YES"/>
+<aos_2way time="2024-045T07:12:40.001Z" ems:station="MLG"/>
+<start_cl_rec time="2024-045T07:12:40.001Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<stop_ul time="2024-045T16:53:04.605Z" ems:station="MLG" UPLNK_SEL="PRIMARY"/>
+<los_2way time="2024-045T16:57:59.999Z" ems:station="MLG"/>
+<stop_cl_rec time="2024-045T16:57:59.999Z" ems:station="MLG" FUNC_GROUP="ALL_USED"/>
+<eot_info time="2024-045T17:00:00.000Z" ems:station="MLG"/>
+</events>
+</eventfile>
