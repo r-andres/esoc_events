@@ -1,9 +1,9 @@
 from typing import Any
 
-from .abstract_parser import AbstractParser
+from esoc_events.utils.evtc_parser import EvtcParser
 
 
-class UevtParser(AbstractParser):
+class UevtParser(EvtcParser):
 
     def __init__(self, path: Any) -> None:
-        AbstractParser.__init__(self, path)
+        EvtcParser.__init__(self, path)

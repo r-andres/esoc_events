@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "esoc_events"
-version = "0.0.1"
+version = "0.0.2"
 description = "Querying events comming from ESOC sources"
 authors = [
     "Rafael Andres <r.andres.blasco@gmail.com>",

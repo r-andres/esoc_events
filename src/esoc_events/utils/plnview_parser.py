@@ -1,5 +1,7 @@
 from typing import Any
 
+from esoc_events.utils.xml import xml_to_obj
+
 from .abstract_parser import AbstractParser
 
 
@@ -12,7 +14,9 @@ class PlnViewParser(AbstractParser):
 
     @property
     def sessions(self) -> list:
-        return self._sessions
+        return [
+            xml_to_obj(session).get("service_session") for session in self._sessions
+        ]
 
     def reset(self) -> Any:
         self._sessions = self._all
