@@ -44,7 +44,7 @@ jobs:
       - uses: ./.github/actions/python-poetry-env
         with:
           python-version: ${{ matrix.python-version }}
-      - run: poetry run pytest --junitxml=./test.xml | tee pytest-coverage.txt
+      - run: poetry run pytest --junitxml=./pytest.xml | tee pytest-coverage.txt
       - name: Pytest coverage comment
         uses: MishaKav/pytest-coverage-comment@main
         with:
