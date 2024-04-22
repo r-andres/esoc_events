@@ -1,12 +1,18 @@
 from xml.etree import ElementTree
 
-from esoc_events.utils.time import fdyn_to_iso
+from esoc_events.utils.time import fdyn_to_iso, iso_to_fdyn
 from esoc_events.utils.xml import xml_to_obj
 
 
 def test_fdyn_to_iso() -> None:
     doy_utc = "2023-104T12:47:12.000Z"
-    assert fdyn_to_iso(doy_utc) == "2023-04-14T12:47:12Z"
+    assert fdyn_to_iso(doy_utc) == "2023-04-14T12:47:12.000Z"
+
+
+def test_iso_to_fdyn() -> None:
+    doy_utc = "2023-104T12:47:12.000Z"
+    iso_utc = "2023-04-14T12:47:12.000Z"
+    assert iso_to_fdyn(iso_utc) == doy_utc
 
 
 def test_xml_to_obj() -> None:

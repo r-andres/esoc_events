@@ -1,14 +1,13 @@
-import datetime
 import xml.etree.ElementTree as ETree
 
 
 class Uevt:
 
-    def __init__(self, start: str, end: str) -> None:
+    def __init__(self, gen_time: str, start: str, end: str) -> None:
         self.root = ETree.Element("eventfile")
         header_attrib = {
             "format_version": "1",
-            "gen_time": datetime.datetime.now().isoformat()[:19] + "Z",
+            "gen_time": gen_time,
             "icd_version": "PLID-1.0",
             "spacecraft": "JUIC",
             "validity_start": start,
