@@ -3,8 +3,9 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
-    # You can also specify other tool versions:
-    # nodejs: "16"
+  jobs:
+     pre_install:
+       - pip install mkdocs-material
 
 # Build documentation with Mkdocs
 mkdocs:
